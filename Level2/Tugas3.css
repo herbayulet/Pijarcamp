@@ -1,0 +1,91 @@
+body {
+  position: relative;
+  width: 1280px;
+  height: 720px;
+
+  background: #ffffff;
+}
+
+.container {
+  position: absolute;
+  width: 1280px;
+  height: 720px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(42, 38, 61, 0.82);
+  background-image: url("bali.png");
+}
+
+img {
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  left: 564px;
+  top: 44px;
+
+  background: url(IconBali.svg);
+}
+
+.nama {
+  position: absolute;
+  left: 476px;
+  right: 476px;
+  top: 223px;
+  bottom: 329px;
+
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 84px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+span {
+  color: rgb(209, 163, 38);
+}
+
+.takeline {
+  position: absolute;
+  width: 124px;
+  height: 17px;
+  left: 578px;
+  top: 405px;
+
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.tombol1 {
+  position: absolute;
+  width: 156px;
+  height: 46px;
+  left: 477px;
+  top: 481px;
+  font-family: "Pacifico";
+
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.tombol2 {
+  position: absolute;
+  width: 156px;
+  height: 46px;
+  left: 646px;
+  top: 481px;
+  font-family: "Pacifico";
+
+  border-radius: 6px;
+}

@@ -1,0 +1,75 @@
+.reason {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.alamat {
+  background-color: yellow;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+/* Instagram */
+.fa-instagram {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Linkedin */
+.fa-linkedin {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+/* Github */
+.fa-github {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: rgb(57, 85, 57);
+  }
+  .alamat {
+    background-color: aquamarine;
+  }
+}
+
+/* Nomor 2 Tugas 2 */
+/* Syntax dari CSS Selector ada beberapa:
+1. class => mengambil semua element yang didalam atribute class semisal class="bayu", maka akan mengambil element bayu 
+2. #id => mengambil semua element yang didalam atribute id semisal id="herbayu", maka akan mengambil element herbayu
+3. element => mengambil semua element, semisal tag <p>,<H1> maka akan mengambil element yang bersangkutan sesuai tag dalam HTML p dan H1*/
+
+/* Nomor 3 Tugas 2 */
+/* CSS Specify itu sendiri adalah klasifikasi yang lebih mengkhususkan dalam suatu element yang memiliki atribut, semisal ada tag <p> dengan class nya adalah alamat jadi maksudnya <p class="alamat" style="color: blue;" /> seperti ini: saya telah menambhakan tag p dengan class nya alamat dan tag p disini sebagai selector dan mempunyai nilai Blue (yang berarti spesifikasi atau nilai dari element tag p itu sendiri */
+
+/* Nomor 4 Tugas 2 */
+/* Responsive Website menurutku adalah dimana halaman WEB atau Interface suatu web tersebut ditata secara rapih baik dalam tampilan desktop, laptop, tablet ataupun handphone, jadi tampilan nya atau interface nya tidak acak-acakan dan enak untuk dilihat atau dipandang */
+
+/* Nomor 5 Tugas 2  */
+/* CSS Media Queries sendiri menurut saya adalah suatu modul yang dapat membantu kita dalam pembuatan UI web itu terlihat responsive dan membantu kita dalam pembuatan responsive website itu sendiri yang mana, Media Queries ini menentukan ukuran layar perangkat dari user, semisal max-width: 480px, max-width: 780px atau max-width: 1180px, yang mana didalam module tersebut kita bisa menentukan styling kita dalam tiap-tiap ukuran layar perangkat*/
+
+/* Nomor 6 Tugas 2 */
+/* Flexbox dan CSS Grid => Sama sama mengatur tampilan website jadi lebih rapi dan tertata, yang mana Flexbox lebih ke mengatur tampilan nya ini mau secara horizontal atau vertical, semisal mengatur arah nya mau menjadi kolom atau row (pilih salah satu), tetapi kalo Grid bisa kedua nya digabungkan secara horizontal bisa atau vertical bisa (dapat digabungkan) dan grid sendiri banyak membantu FE designer dalam slicing UI */
+
+/* Nomor 7 Tugas 2 */
+/* Boostrap menurut saya adalah, suatu framework CSS yang dapat membantu FrontEnd dalam pembuatan website atau Slicing UI nya menjadi lebih mudah, karena dalam bootstrap kita dapat menggunakan template nya sudah tersedia seperti Navbar, Jumbotron, Main page, atau pun yang lain nya, dan juga utilities nya sangat membantu seperti margin, padding dsb dan contohnya : mt-3, mb-5, p-3, pe-2 */
